@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Share+Tech&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Saira+Stencil+One&family=Share+Tech&family=Share+Tech+Mono&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url("liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-82940.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  font-size: 50px;
+  color: hsl(0, 100%, 50%);
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Orbitron", serif;
+}
+
+.arobase {
+  font-size: 20px;
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  margin-top: -20px;
+  font-family: "Share Tech", serif;
+}
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  font-family: "arial", serif;
+  background-color: hsla(0, 0%, 0%, 0.233);
+  padding: 50px;
+}
+
+.subtitle {
+  font-size: 45px;
+  color: hsl(231, 100%, 49%);
+  margin-top: 30px;
+  font-family: "Share Tech", serif;
+  text-align: center;
+}
+
+.merci {
+  font-size: 50px;
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Share Tech", serif;
+  margin-top: 50px;
+}
+
+.contact {
+  font-size: 40px;
+  color: hsl(0, 100%, 50%);
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Share Tech Mono", serif;
+}
+
+.development {
+  font-size: 25px;
+  color: hsl(189, 100%, 50%);
+  font-family: "Tourney", serif;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Share Tech", serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button {
+  background: linear-gradient(90deg, #00ccff 0%, #0044ff 100%);
+  border: none;
+  color: #fff;
+  padding: 16px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Orbitron", Arial, sans-serif;
+  margin: 20px auto 30px auto;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(127, 0, 255, 0.2);
+  transition: background 0.3s, transform 0.2s;
+  letter-spacing: 1px;
+  display: block;
+}
+.button:hover {
+  background: linear-gradient(90deg, #0044ff 0%, #00ccff 100%);
+  transform: scale(1.05);
+}
