@@ -16,5 +16,5 @@ elif choix == "2":
     resultat = montant * Sterling
     print(f"Ça vous fera {resultat:.2f} £")
 
-else:
- print("Choix invalide, veuillez entrer 1 ou 2.")
+else :
+    print("Choix invalide, veuillez entrer 1 ou 2.")
