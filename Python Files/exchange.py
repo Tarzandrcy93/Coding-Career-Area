@@ -1,5 +1,5 @@
-print("Bienvenue dans le convertisseur de Sterling ⮕ Euro ou Euro ⮕ Sterling")
-print("Mettez 1 ⮕ Euro ou 2 ⮕ Sterling ")
+print("Bienvenue dans le convertisseur de Sterling pour Euro ou Euro pour Sterling")
+print("Mettez 1 pour Euro ou 2 pour Sterling ")
 
 Euro = 1.15      # 1 £ = 1.15 €
 Sterling = 0.87  # 1 € = 0.87 £
