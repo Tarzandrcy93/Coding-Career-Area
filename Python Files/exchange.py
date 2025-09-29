@@ -1,11 +1,21 @@
-print("Bienvenue dans le convertisseur de Sterling pour Euro ou Euro pour Sterling")
-print("Mettez 1 pour Euro ou 2 pour Sterling ")
+print("Bienvenue dans le convertisseur de la monnaie")
+print("Mettez les chiffres pour : ")
+print("1 : Sterling ⮕ Euro")
+print("2 : Euro ⮕ Sterling")
+print("3 : Euro ⮕ Dollar Américain")
+print("4 : Dollar Américain ⮕ Euro")
+print("5 : Sterling ⮕ Dollar Américain")
+print("6 : Dollar Américain ⮕ Sterling")
+print("")
 
 Euro = 1.15      # 1 £ = 1.15 €
 Sterling = 0.87  # 1 € = 0.87 £
+Dollar_américain = 1.17 # 1€ = 1.17
 
-choix = input("Votre choix : ")
-
+choix= input("Votre choix : ")
+while choix not in ["1", "2"]:
+    choix = input("Choix inavlide , Veuillez rentrer le chiffre : ")
+  
 if choix == "1":
     montant = float(input("Mettez votre nombre en Sterling : "))
     resultat = montant * Euro
@@ -16,5 +26,4 @@ elif choix == "2":
     resultat = montant * Sterling
     print(f"Ça vous fera {resultat:.2f} £")
 
-else :
-    print("Choix invalide, veuillez entrer 1 ou 2.")
+
