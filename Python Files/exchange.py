@@ -6,14 +6,17 @@ print("3 : Euro ⮕ Dollar Américain")
 print("4 : Dollar Américain ⮕ Euro")
 print("5 : Sterling ⮕ Dollar Américain")
 print("6 : Dollar Américain ⮕ Sterling")
-print("")
 
-Euro = 1.15      # 1 £ = 1.15 €
-Sterling = 0.87  # 1 € = 0.87 £
-Dollar_américain = 1.17 # 1€ = 1.17
+Euro = 1.14      
+Sterling = 0.87  
+Dollar_américain = 1.17 
+Euro_d= 0.85 
+dollar_s= 1.34 
+Sterling_d= 0.74
+
 
 choix= input("Votre choix : ")
-while choix not in ["1", "2"]:
+while choix not in ["1", "2", "3", "4", "5", "6"]:
     choix = input("Choix inavlide , Veuillez rentrer le chiffre : ")
   
 if choix == "1":
@@ -26,4 +29,23 @@ elif choix == "2":
     resultat = montant * Sterling
     print(f"Ça vous fera {resultat:.2f} £")
 
+elif choix == "3":
+    montant = float(input("Mettez votre nombre en Euro : "))
+    resultat = montant * Dollar_américain
+    print(f"Ça vous fera {resultat:.2f} $")
+    
+elif choix == "4":
+    montant = float(input("Mettez votre nombre en Dollar Américain : "))
+    resultat = montant * Euro_d
+    print(f"Ça vous fera {resultat:.2f} €")
+    
+elif choix == "5":
+    montant = float(input("Mettez votre nombre en Sterling: "))
+    resultat = montant * dollar_s
+    print(f"Ça vous fera {resultat:.2f} $")
+    
+elif choix == "6":
+    montant = float(input("Mettez votre nombre en Dollar Américain : "))
+    resultat = montant * Sterling_d
+    print(f"Ça vous fera {resultat:.2f} £")
 
