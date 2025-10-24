@@ -2,7 +2,7 @@ import json
 import os
 import random
 
-FICHIER_COMPTES = "index.json"
+FICHIER_COMPTES = "connexion.json"
 
 def charger_comptes():
     if os.path.exists(FICHIER_COMPTES):
