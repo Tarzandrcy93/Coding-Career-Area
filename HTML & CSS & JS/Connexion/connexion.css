@@ -1,17 +1,23 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Saira+Stencil+One&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
+    
 }
     
 body {
-    background: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background: #ffffff00;
+    background: linear-gradient(to right, #e2e2e2, #ffffff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +27,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.35);
     position: relative;
@@ -53,7 +59,7 @@ body {
 }
 
 .container button{
-  background-color: #512da8;
+  background-color: #00ccff;
   color: #fff   ;
   font-size: 12px;
   padding: 10px 45px;
@@ -64,6 +70,7 @@ body {
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+    font-family: "Silkscreen", sans-serif;
 }
 
 .container button.hidden {
@@ -73,7 +80,7 @@ body {
 }
 
 .container form {
-    background-color: #fff;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,9 +182,9 @@ body {
 }
 
 .toggle {
-    background-color: #512da8;
+    background-color: #ffffff;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #0026ff, #d60505);
     color: #fff;
     position: relative;
     left: -100%;
@@ -224,3 +231,19 @@ body {
 .container.active .toggle-right {
     transform: translateX(200%);
 }
+
+.nom {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.incs{
+    font-family: 'Offside', cursive;
+}
+
+p {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
