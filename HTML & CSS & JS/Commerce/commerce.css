@@ -1,0 +1,26 @@
+.logo {
+    width: 30px;
+}
+
+.cmd {
+    font-size: 25px;
+    position: relative;
+    right: auto;
+    text-align: right;
+    margin-top: -120px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    background-color: #0a7dff;
+}
