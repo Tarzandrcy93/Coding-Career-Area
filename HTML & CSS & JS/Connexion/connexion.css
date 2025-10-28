@@ -23,6 +23,11 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background-image: url("from-the-original-turtlemania-era-a-1990-documentary-from-v0-NnAzMno1Y3YzNjRjMdn-eDxu-Eew61-r2FnbuNO7ROxh2eaqGSBSsYnX4t0B.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 
 }
 
@@ -60,7 +65,7 @@ body {
 
 .container button{
   background-color: #00ccff;
-  color: #fff   ;
+  color: #ffffff   ;
   font-size: 12px;
   padding: 10px 45px;
     border: 1px solid transparent;
@@ -75,7 +80,7 @@ body {
 
 .container button.hidden {
     background-color: transparent;
-    border-color: #fff;
+    border-color: #ffffff;
 
 }
 
@@ -93,7 +98,7 @@ body {
 
 
 .container input {
-    background-color: #eee;
+    background-color: #d1d0d07e;
     border: none;
     margin: 8px 0 ;
     padding: 10px 15px;
