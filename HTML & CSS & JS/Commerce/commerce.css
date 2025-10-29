@@ -36,25 +36,8 @@ body {
     left: 20px;
 }
 
-.coque {
-    width: 250px;
-}
 
-h4 {
-    font-size: 30px;
-    margin-top: 1px;
-    right: 2px;
-    color: white;
 
-}
-
-.info {
-    font-size: 20px;
-    margin-top: -35px;
-    align-items: center;
-    color: white;
-    
-}
 
 .header {
     background: linear-gradient(to right, #9900ff, #3700ff);
