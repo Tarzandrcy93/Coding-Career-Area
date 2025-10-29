@@ -7,14 +7,16 @@
     position: relative;
     right: auto;
     text-align: right;
-    margin-top: -120px;
+    margin-top: -100px;
     color: white;
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: white;   
 }
 
 h2 {
@@ -22,5 +24,41 @@ h2 {
 }
 
 body {
-    background-color: #0a7dff;
+           background: linear-gradient(to left, #9900ff, #3700ff);
+ 
+
+}
+
+.logo-site {
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.coque {
+    width: 250px;
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 1px;
+    right: 2px;
+    color: white;
+
+}
+
+.info {
+    font-size: 20px;
+    margin-top: -35px;
+    align-items: center;
+    color: white;
+    
+}
+
+.header {
+    background: linear-gradient(to right, #9900ff, #3700ff);
+    height: 200px;
+    border-radius: 30px;
+    height: 200px;
 }
