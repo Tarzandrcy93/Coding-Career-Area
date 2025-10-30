@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Press+Start+2P&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+font-family: 'Press Start 2P', sans-serif;
+background: #ffd447;
+text-align: center;
+padding: 50px;
+ background: linear-gradient(to right, #0026ff, #ff0000);
+
+}
+
+.container{
+background: white;
+padding: 4em;
+border-radius: 140px;
+box-shadow: 0 5 15px rgba(0,0,0,0.1);
+display: inline-block;
+margin-top: 100px;
+}
+
+img{
+width: 45px;
+cursor: pointer;
+}
+
+#display{
+font-size: 3em;
+color: rgb(255, 230, 0);
+margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock{
+    width: 200px;
+    padding-bottom: 20px; 
+}
+
+.pause{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.refresh{
+    width: 120px;
+    position: relative;
+    top: 10px;
+}
+
+.start{
+    width: 100px;
+}
