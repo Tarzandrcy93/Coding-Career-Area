@@ -2,20 +2,19 @@
 
 body{
 font-family: 'Press Start 2P', sans-serif;
-background: #ffd447;
 text-align: center;
 padding: 50px;
- background: linear-gradient(to right, #0026ff, #ff0000);
+background: linear-gradient(to left, #0026ff, #ff0000);
 
 }
 
 .container{
 background: white;
-padding: 4em;
+padding: 10em;
 border-radius: 140px;
 box-shadow: 0 5 15px rgba(0,0,0,0.1);
 display: inline-block;
-margin-top: 100px;
+margin-top: 270px;
 }
 
 img{

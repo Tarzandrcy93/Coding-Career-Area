@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #0026ff, #ff0000);
+    background: linear-gradient(to bottom , #0026ff, #ff0000);
 
 }
 #calculator{
@@ -13,19 +13,28 @@ body{
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+    box-shadow: 0 0 20px hsl(0, 0%, 20%);
+    display: inline-block;
+    
 }
-#display{
+
+#display {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 1%, 47%);
-    color: rgb(255, 255, 255); 
-    border-radius: 15px 15px 15 15px;
-
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+    box-shadow: inset 0 0 10px hsl(0, 0%, 20%);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
-#keys{
+
+
+#keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
