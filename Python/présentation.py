@@ -1,18 +1,17 @@
-print("⬇️ Presentez-vous ici ⬇️")
-name  = input("Je m'appelle ")
-print("Salut " + name)
+import time
 
-age = int(input("J'ai "))
-
-if age < 18:
-    print("Tu es mineur")
-
-else :
-    print("Tu es majeur")
-
-eleve = input("Je suis un ")
-print("Quelle langage de programmation connais-tu ?")
-
-
-
-
+print("Bienvenue sur le projet STC !!!")
+time.sleep(1.5)
+name  = input("Quel est ton prénom ?  ")
+age = int(input("Quel age as-tu ?  "))
+niveau = input("Ton niveau sur la programmation ?  ") 
+année = input("Ton année d'expérience sur la programmation ?  ")
+code = input("Quelle langage de programmation as-tu appris ?  ")
+time.sleep(2)
+print("En cours de la présentation %")
+time.sleep(2)
+print(f"Je m'appelle {name}")
+print(f"J'ai {age} ans")
+print(f"Je suis un {niveau} dans la programmation")
+print(f"Je code depuis {année} ans")
+print(f"J'ai appris le {code}")
