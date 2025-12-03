@@ -10,13 +10,13 @@ time.sleep(1)
 print("Votre IMC est de", round(bmi, 2))
 time.sleep(1)   
 if bmi < 18:
-	print("Vous êtes maigre")
+	print("Vous êtes maigre 😊")
 elif 18 <= bmi < 25:
-    print("Vous êtes normal")
+    print("Vous êtes normal 🙂")
 elif 25 <= bmi < 30:
-    print("Vous êtes en surpoids")
+    print("Vous êtes en surpoids 😐")
 elif 30 <= bmi < 45:
-    print("Vous êtes obèse")
+    print("Vous êtes obèse 😧")
 elif bmi >= 45:
-    print("Vous êtes en obésité sévère")
+    print("Vous êtes en obésité sévère 😨")
     

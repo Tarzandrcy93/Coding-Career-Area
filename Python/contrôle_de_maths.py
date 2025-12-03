@@ -81,3 +81,8 @@ print("En cours de la correction %")
 time.sleep(2)
 
 print(f"Bravo !!! Tu as obtenu {bonnes_reponses} bonnes réponses .")
+
+if bonnes_reponses >= 5:
+    print("Tu as reussi le contrôle 👌😁 !")
+else :
+    print("Tu as raté le contrôle 😡🫢 !")
