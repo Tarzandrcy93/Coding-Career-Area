@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Press+Start+2P&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+    background: #fff;
+    border-radius: 10px;
+    transition: height 0.2s ease;
+    max-width: 600px; 
+    height: 400px;     
+    padding: 30px 40px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 120;
+    font-family: 'Silkscreen';
+    margin-bottom: 30px
+}
+
+form button{
+    background: #00e1ff;
+    margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Saira Stencil One', sans-serif;
+    border-color: #00e1ff;
+
+}
+
+.ecr{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.c{
+    margin-right: 10px;
+}
+
+.ecr1{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to left, #0011ff, #ff0000);
+}
+
