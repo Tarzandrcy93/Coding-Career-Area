@@ -1,3 +1,5 @@
+alert("Appuie sur le bouton sur OK pour accéder au site");      
+
 const wrapper = document.querySelector(".wrapper"),
 qrInput = wrapper.querySelector(".form input"),
 generateBtn = wrapper.querySelector(".form button"),
