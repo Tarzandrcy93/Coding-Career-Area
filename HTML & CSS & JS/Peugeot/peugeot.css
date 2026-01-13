@@ -1,26 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 .pgt {
-    display: block;
-    margin-top: 5px;
-    margin-left: auto;  
-    margin-right: auto;
-    margin-bottom: 12px;
-
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
 }
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    font-size: 28px;
-    color: #fff9f9;
-    background-color: rgb(92, 88, 88);
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  color: #fff9f9;
+  background-color: rgb(92, 88, 88);
 }
 
 .pgt1 {
-  width: 1700px;
-  margin-left: auto;
+  width: 1850px;
+  height: 800px;
+  margin-left: 20px;
   margin-right: auto;
+}
 
+.pimg1 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: -750px;
+  margin-left: 550px;
+}
+
+.pimg12 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 170px;
+  margin-left: 1050px;
 }
