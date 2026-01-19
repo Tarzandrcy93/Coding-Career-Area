@@ -1,6 +1,10 @@
-print("Bienvenue dans la théoreme de Pythagore ou la réciproque de Pythagore")
+print("="*80)
+print("   Bienvenue dans la théoreme de Pythagore ou la réciproque de Pythagore")
+print("="*80)
 Choix = input("Tapez 1 = le théorème de Pythagore ou 2 = la réciproque de Pythagore : ")
-
+while Choix not in ["1", "2"]:
+    Choix = input("Veuillez tapez 1 = le théorème de Pythagore ou 2 = la réciproque de Pythagore : ")
+    
 if Choix == "1":  
     print("Voici le théorème de Pythagore : A² + B² = C²")
     a = float(input("Entrez la longueur du côté A : "))
