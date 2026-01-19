@@ -1,4 +1,6 @@
-print("Bienvenue sur le programme d'écriture scientifique :")
+print("="*55)
+print("  Bienvenue sur le programme d'écriture scientifique :")
+print("="*55)
 
 nombre  = float(input("Entrez un nombre : "))
 exposant = 0

@@ -1,4 +1,7 @@
-print("Bienvenue dans le convertisseur de la monnaie")
+print("="*52)
+print("  Bienvenue dans le convertisseur de la monnaie :")
+print("="*52)
+
 print("Voici les chiffres pour : ")
 print("1 : Sterling ⮕ Euro")
 print("2 : Euro ⮕ Sterling")

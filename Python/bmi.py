@@ -1,14 +1,25 @@
 import time
-print("Bienvenue sur le calculateur d'IMC (Indice de Masse Corporelle)")
+
+print("="*70)
+print("   Bienvenue sur le calculateur d'IMC (Indice de Masse Corporelle)")
+print("="*70)
+
 time.sleep(1)
+
 poids = float(input("Votre poids (kg) : "))
 taille = float(input("Votre taille (cm) : "))
 bmi = poids / (taille / 100) ** 2
+
 time.sleep(1)
+
 print("Calcul en cours...")
+
 time.sleep(1)
+
 print("Votre IMC est de", round(bmi, 2))
+
 time.sleep(1)   
+
 if bmi < 18:
 	print("Vous êtes maigre 😊")
 elif 18 <= bmi < 25:

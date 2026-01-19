@@ -1,6 +1,9 @@
 import time
 
-print("Voici sur les décompositions en facteurs premiers des nombres :")
+print("="*70)
+print("  Voici sur les décompositions en facteurs premiers des nombres :")
+print("="*70)
+
 time.sleep(1)
 input("Appuyez sur Entrée pour continuer...")
 time.sleep(1)

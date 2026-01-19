@@ -59,8 +59,11 @@ def connexion(comptes):
     print('Mot de passe accepté !')
     print(f'Bienvenue {comptes[email]["identifiant"]}  sur votre compte !')  
 
-# --- Programme principal ---
-print('Bienvenue sur le Projet STC')
+
+print("="*50)
+print('   Bienvenue sur le page de connexion de STC')
+print("="*50)
+
 comptes = charger_comptes()
 
 choix = input("(Tapez 1 = s'inscrire) ou (Tapez 2 = se connecter) : ")

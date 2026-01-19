@@ -1,6 +1,9 @@
 import time
 
-print("Bienvenue sur le projet STC !!!")
+print("="*37)
+print("   Bienvenue sur le projet STC !!!")
+print("="*37)
+
 time.sleep(1.5)
 name  = input("Quel est ton prénom ?  ")
 age = int(input("Quel age as-tu ?  "))

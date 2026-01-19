@@ -1,3 +1,5 @@
+import math
+
 print("="*80)
 print("   Bienvenue dans la théoreme de Pythagore ou la réciproque de Pythagore")
 print("="*80)
@@ -9,7 +11,7 @@ if Choix == "1":
     print("Voici le théorème de Pythagore : A² + B² = C²")
     a = float(input("Entrez la longueur du côté A : "))
     b = float(input("Entrez la longueur du côté B : "))
-    c = (a**2 + b**2)**0.5
+    c = math.sqrt(a**2 + b**2)
     print(f"La longueur de l'hypoténuse C est {c}")
 
 
@@ -17,7 +19,7 @@ elif Choix == "2":
     print("Voici la réproque de Pythagore : Si A² + B² = C², alors le triangle est rectangle.")
      
     a = float(input("Entrez la longueur du côté A : "))
-    b = float(input("Entrez la longueur du côté B : "))
+    b = float(input("Entrez la longueur du côté B : ")) 
     c = float(input("Entrez la longueur du côté C (hypoténuse) : "))
 
     if a**2 + b**2 == c**2:

@@ -1,4 +1,6 @@
-print("Bienvenue sur le convertisseur de la température")
+print("="*55)
+print("  Bienvenue sur le convertisseur de la température : ")
+print("="*55)
 print("Voici les chiffres pour : ")
 print("1 : Celsius ⮕ Fahrenheit")
 print("2 : Fahrenheit ⮕ Celsius")

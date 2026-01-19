@@ -1,5 +1,9 @@
 import qrcode
 
+print("="*46)
+print("   Bienvenue sur le générateur de QR Code : ")
+print("="*46)
+
 url = input("Entrez l'URL : ").strip()
 file_path = "C:\\Users\\user\\Desktop\\qrcode.png"
 

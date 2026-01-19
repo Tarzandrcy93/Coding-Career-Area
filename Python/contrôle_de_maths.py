@@ -1,12 +1,14 @@
 import time
 
 bonnes_reponses = 0
-print("Bienvenue sur le contrôle de Maths")
+print("="*40)
+print("  Bienvenue sur le contrôle de Maths :")
+print("="*40)
 time.sleep(0.5)
 print("Le contrôle est noté sur 10")
 time.sleep(0.5)
 input("Appuyez sur Entrée pour commencer")
-time.sleep
+time.sleep(2)
 un = input("1) 4 + 5 = ")
 if un == "9":
     print("Bonne réponse !")
