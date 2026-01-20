@@ -2,7 +2,15 @@ print("="*55)
 print("  Bienvenue sur le programme d'écriture scientifique :")
 print("="*55)
 
-nombre  = float(input("Entrez un nombre : "))
+def demander_nombre(message):
+    while True:
+        try:
+            return float(input(message))
+        except ValueError:
+            print("Entrée invalide. Veuillez entrer un nombre.")
+
+nombre  = demander_nombre("Entrez un nombre : ")
+
 exposant = 0
 if nombre != 0:
     while abs(nombre) >= 10:
