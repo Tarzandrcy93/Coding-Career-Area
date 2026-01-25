@@ -6,6 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 12px;
+  position: relative;
 }
 
 .pgt1 {
@@ -115,4 +116,59 @@ font-family: "Fira Sans Condensed", sans-serif;
 
 .slide.active {
   display: block;
+}
+
+.loc {
+  position: absolute;
+    top: 20px;     
+    right: 100px;    
+    width: 30px;    
+    height: 30px;   
+      Cursor: pointer;
+  }
+
+
+.form {
+  position: absolute;
+    top: 20px;     
+    right: 200px;    
+    width: 30px;    
+    height: 30px;
+    Cursor: pointer;
+}
+
+.vol {
+  position: absolute;
+       top: 20px;     
+    right: 300px;    
+    width: 30px;    
+    height: 30px;
+    Cursor: pointer;
+}
+
+.tel{
+   position: absolute;
+       top: 20px;     
+    right: 400px;    
+    width: 35px;    
+    height: 35px;
+    Cursor: pointer;
+}
+
+
+.slider{
+  margin-top: 40px;
+}
+
+.slide{
+  margin-top: 40px;
+}
+
+
+.pt{
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
 }
