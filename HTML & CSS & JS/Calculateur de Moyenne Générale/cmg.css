@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Saira+Stencil+One&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container {
+    width: 500px;
+    background: #fafafa;
+    border-radius: 12px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to left , #0011ff, #ff0000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+h1 {
+    font-family: 'Saira Stencil One', sans-serif;
+    color: #eed12f;
+    font-size: 2em;
+   
+}
+
+.mtr {
+    font-family: 'Tourney', sans-serif;
+    color: #000000;
+    font-size: 1.2em;
+    margin-right: 112px;
+}
+
+.submit {
+    font-family: 'Offside', sans-serif;
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.result {
+    font-family: 'Share Tech Mono', monospace;
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+input::placeholder {
+     color: #444;
+    font-family: 'Tourney', sans-serif;
+    font-size: 1.1em;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+input {
+    border: 2px solid #a3a0a0;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: 'Tourney', sans-serif;
+    font-size: 1.2em;
+}
+
+.result-value{
+    font-family: 'Tourney', sans-serif;
+    font-size: 40px;
+}
