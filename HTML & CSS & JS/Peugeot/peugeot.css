@@ -70,4 +70,11 @@
       font-size: 25px;  
       font-family: 'Orbitron', sans-serif;
       cursor: pointer;
+      color: black;
+}
+
+.car{
+    position : absolute;
+      top: 300px;
+
 }
