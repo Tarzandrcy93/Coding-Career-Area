@@ -113,7 +113,7 @@
 
 .p2 {
   position: absolute;
-  top: 1000px;
+  top: 970px;
   right: 10px;
   font-size: 17px;
   font-family: "Orbitron", sans-serif;
@@ -161,8 +161,8 @@ h1 {
 .p3 {
   position: absolute;
   top: 1500px;
-  right: 150px;
-  font-size: 17px;
+  right: 90px;
+  font-size: 18px;
   font-family: "Orbitron", sans-serif;
   color: black;
 }
@@ -191,7 +191,7 @@ h1 {
   position: absolute;
   top: 1300px;
   left: 750px;
-  font-size: 50px;
+  font-size: 50px;  
   font-family: "Unica One", sans-serif;  
   color: black;
   text-shadow: 2px 2px 4px #000000;
