@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Unica+One&display=swap');
 
 @font-face {
   font-family: "Peugeot New Regular";
@@ -10,6 +11,12 @@
     local("Peugeot New Regular"),
     url("PeugeotNewRegular.woff") format("woff");
 }
+
+*{
+  background-color: #eceaea;
+
+}
+
 .pgt {
   display: block;
   margin-top: 5px;
@@ -17,15 +24,17 @@
   margin-right: auto;
   margin-bottom: 12px;
   position: relative;
-}
+  
+} 
 
-.loc {
+.cmp {
   position: absolute;
-  top: 20px;
+  top: 12px;
   right: 100px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
+  
 }
 
 .form {
@@ -35,6 +44,7 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+ 
 }
 
 .vol {
@@ -44,6 +54,7 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+  
 }
 
 .tel {
@@ -53,6 +64,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
+ 
 }
 
 .menu {
@@ -62,140 +74,35 @@
   width: 45px;
   height: 45px;
   cursor: pointer;
-}
-
-.t1 {
-  position: absolute;
-  top: 120px;
-  left: 100px;
-  font-size: 25px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-  color: black;
-}
-
-.car1 {
-  position: absolute;
-  top: 400px;
-  left: -12px;
-}
-
-.car2 {
-  position: absolute;
-  top: 900px;
-}
  
-
-.ligne {
-  width: 200px;
-  height: 2px;
-  background: black;
 }
 
-.t2 {
+.bas-peugeot {
+    width: 100%;
+    height: 100vh; /* prend toute la hauteur de l'écran */
+    background-image: url("peugeot.png"); /* mets TON image */
+    background-size: cover;      /* remplit tout sans déformer */
+    background-position: center; /* bien centré */
+    background-repeat: no-repeat;
+}
+
+.b{
   position: absolute;
   top: 120px;
-  left: 450px;
-  font-size: 25px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-  color: black;
-}
-
-.p1 {
-  position: absolute;
-  top: 500px;
-  right: 20px;
-  font-size: 17px;
-  font-family: "Orbitron", sans-serif;
-  color: black;
-}
-
-.p2 {
-  position: absolute;
-  top: 970px;
-  right: 10px;
-  font-size: 17px;
-  font-family: "Orbitron", sans-serif;
-  color: black;
-}
-
-h1 {
-  position: absolute;
-  top: 270px;
-  left: 750px;
-  font-size: 50px;
   font-family: "Unica One", sans-serif;
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
+  background: transparent; 
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  left: 150px   
+
 }
 
-.gti {
+.p{
   position: absolute;
-  top: 770px;
-  left: 750px;
-  font-size: 50px;
+  top: 620px;
   font-family: "Unica One", sans-serif;
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
+  background: transparent; 
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  left: 15px   
 }
-
-.car3 {
-  position: absolute;
-  top: 1300px; 
-  left: 50px;
-  width: 600px;
-  height: 600px;
-}
-
-.egt {
-  position: absolute;
-  top: 1300px;
-  left: 750px;
-  font-size: 50px;
-  font-family: "Unica One", sans-serif;  
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.p3 {
-  position: absolute;
-  top: 1500px;
-  right: 90px;
-  font-size: 18px;
-  font-family: "Orbitron", sans-serif;
-  color: black;
-}
-
-.quatre {
-  position: absolute;
-  top: 1300px;
-  left: 750px;
-  font-size: 50px;
-  font-family: "Unica One", sans-serif;  
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.trois {
-  position: absolute;
-  top: 1300px;
-  left: 750px;
-  font-size: 50px;
-  font-family: "Unica One", sans-serif;  
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.deux {
-  position: absolute;
-  top: 1300px;
-  left: 750px;
-  font-size: 50px;  
-  font-family: "Unica One", sans-serif;  
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-
-
