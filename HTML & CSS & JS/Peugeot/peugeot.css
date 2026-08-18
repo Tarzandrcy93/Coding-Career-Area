@@ -79,10 +79,10 @@
 
 .bas-peugeot {
     width: 100%;
-    height: 100vh; /* prend toute la hauteur de l'écran */
-    background-image: url("peugeot.png"); /* mets TON image */
-    background-size: cover;      /* remplit tout sans déformer */
-    background-position: center; /* bien centré */
+    height: 100vh; 
+    background-image: url("peugeot.png"); 
+    background-size: cover;      
+    background-position: center; 
     background-repeat: no-repeat;
 }
 
