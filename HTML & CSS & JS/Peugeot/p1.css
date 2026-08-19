@@ -77,15 +77,6 @@
  
 }
 
-.t1 {
-  position: absolute;
-  top: 120px;
-  left: 100px;
-  font-size: 25px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-  color: black;
-}
 
 .car1 {
   position: absolute;
@@ -97,7 +88,7 @@
   position: absolute;
   top: 1290px;
 }
- 
+
 
 .ligne {
   width: 200px;
@@ -105,15 +96,6 @@
   background: black;
 }
 
-.t2 {
-  position: absolute;
-  top: 120px;
-  left: 450px;
-  font-size: 25px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-  color: black;
-}
 
 .p1 {
   position: absolute;
@@ -211,26 +193,76 @@ h1 {
 }
 
 .prix1{
- font-size: 25px; 
- font-family: "science gothic", sans-serif;
- margin-left: 400px; 
- margin-top: 670px;
- text-align: center;      
+  font-size: 25px; 
+  font-family: "science gothic", sans-serif;
+  margin-left: 400px; 
+  margin-top: 670px;
+  text-align: center;      
   
 }
 
 .prix2{
- font-size: 25px; 
- font-family: "science gothic", sans-serif;
- margin-left: 400px; 
- margin-top: 700px;
- text-align: center;      
+  font-size: 25px; 
+  font-family: "science gothic", sans-serif;
+  margin-left: 400px; 
+  margin-top: 700px;
+  text-align: center;      
 }
 
 .prix3{
- font-size: 25px; 
- font-family: "science gothic", sans-serif;
- margin-left: 400px; 
- margin-top: 800px;
- text-align: center;      
+  font-size: 25px; 
+  font-family: "science gothic", sans-serif;
+  margin-left: 400px; 
+  margin-top: 800px;
+  text-align: center;      
+}
+
+.t1 {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t2 {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t3{
+  position: absolute;
+  top: 120px;
+  left: 820px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t4{
+  position: absolute;
+  top: 120px;
+  left: 1112px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t5{
+  position: absolute;
+  top: 120px;
+  left: 1600px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
 }

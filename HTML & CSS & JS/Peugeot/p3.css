@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Offside&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Dirt&family=Rubik+Iso&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Unica+One&display=swap');
+
+@font-face {
+  font-family: "Peugeot New Regular";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Peugeot New Regular"),
+    url("PeugeotNewRegular.woff") format("woff");
+}
+
+*{
+  background-color: #eceaea;
+
+}
+
+.pgt {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  position: relative;
+  
+} 
+
+.cmp {
+  position: absolute;
+  top: 12px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  
+}
+
+.form {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+ 
+}
+
+.vol {
+  position: absolute;
+  top: 20px;
+  right: 300px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  
+}
+
+.tel {
+  position: absolute;
+  top: 20px;
+  right: 400px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+ 
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+ 
+}
+
+
+.car1 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+.car2 {
+  position: absolute;
+  top: 1190px;
+  width: 620px;
+  height: 382px;
+}
+ 
+
+.ligne {
+  width: 200px;
+  height: 2px;
+  background: black;
+}
+
+
+
+.p1 {
+  position: absolute;
+  top: 500px;
+  right: 180px;
+  font-size: 17px;
+  font-family: "Orbitron", sans-serif;
+  color: black;
+}
+
+.p2 {
+  position: absolute;
+  top: 1300px;
+  right: 100px;
+  font-size: 17px;
+  font-family: "Orbitron", sans-serif;
+  color: black;
+}
+
+h1 {
+  position: absolute;
+  top: 270px;
+  left: 750px;
+  font-size: 50px;
+  font-family: "Unica One", sans-serif;
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.gti {
+  position: absolute;
+  top: 1100px;
+  left: 750px;
+  font-size: 50px;
+  font-family: "Unica One", sans-serif;
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.car3 {
+  position: absolute;
+  top: 2120px; 
+  left: 80px;
+  width: 571px;
+  height: 299px;
+}
+
+.egt {
+  position: absolute;
+  top: 1970px;
+  left: 750px;
+  font-size: 50px;
+  font-family: "Unica One", sans-serif;  
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.p3 {
+  position: absolute;
+  top: 2200px;
+  right: 120px;
+  font-size: 18px;
+  font-family: "Orbitron", sans-serif;
+  color: black;
+}
+
+.quatre {
+  position: absolute;
+  top: 1300px;
+  left: 750px;
+  font-size: 50px;
+  font-family: "Unica One", sans-serif;  
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.trois {
+  position: absolute;
+  top: 1300px;
+  left: 750px;
+  font-size: 50px;
+  font-family: "Unica One", sans-serif;  
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.deux {
+  position: absolute;
+  top: 1300px;
+  left: 750px;
+  font-size: 50px;  
+  font-family: "Unica One", sans-serif;  
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.prix1{
+ font-size: 25px; 
+ font-family: "science gothic", sans-serif;
+ margin-left: 400px; 
+ margin-top: 670px;
+ text-align: center;      
+  
+}
+
+.prix2{
+ font-size: 25px; 
+ font-family: "science gothic", sans-serif;
+ margin-left: 400px; 
+ margin-top: 700px;
+ text-align: center;      
+}
+
+.prix3{
+ font-size: 25px; 
+ font-family: "science gothic", sans-serif;
+ margin-left: 400px; 
+ margin-top: 800px;
+ text-align: center;      
+}
+
+.t1 {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t2 {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t3{
+  position: absolute;
+  top: 120px;
+  left: 820px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t4{
+  position: absolute;
+  top: 120px;
+  left: 1112px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t5{
+  position: absolute;
+  top: 120px;
+  left: 1600px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}

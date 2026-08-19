@@ -71,15 +71,7 @@
   cursor: pointer;
 }
 
-.t1 {
-  position: absolute;
-  top: 120px;
-  left: 100px;
-  font-size: 25px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-  color: black;
-}
+
 
 .car1 {
   position: absolute;
@@ -101,15 +93,7 @@
   background: black;
 }
 
-.t2 {
-  position: absolute;
-  top: 120px;
-  left: 450px;
-  font-size: 25px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-  color: black;
-}
+
 
 .p1 {
   position: absolute;
@@ -240,4 +224,54 @@ h1 {
  margin-left: 400px; 
  margin-top: 750px;
  text-align: center;      
+}
+
+.t1 {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t2 {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t3{
+  position: absolute;
+  top: 120px;
+  left: 820px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t4{
+  position: absolute;
+  top: 120px;
+  left: 1112px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.t5{
+  position: absolute;
+  top: 120px;
+  left: 1600px;
+  font-size: 25px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  color: black;
 }
